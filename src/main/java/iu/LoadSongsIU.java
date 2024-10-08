@@ -20,7 +20,9 @@ public class LoadSongsIU {
             for (int i = 0; i < spotySong.getArtistsNames().length; i++) {
                 System.out.print(spotySong.getArtistsNames()[i] + ". ");
             }
-            System.out.println();
+            System.out.print(spotySong.getReleaseDate());
+            System.out.print(". BPM: "+spotySong.getBpm());
+            System.out.println(". Cover: " + spotySong.getCoverUrl());
         }
     }
 }

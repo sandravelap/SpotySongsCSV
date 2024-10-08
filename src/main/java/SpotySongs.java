@@ -9,5 +9,4 @@ public class SpotySongs {
         LoadSongsIU loadSongsIU = new LoadSongsIU();
         loadSongsIU.showSpotySongs();
     }
-
 }
